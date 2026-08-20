@@ -1,0 +1,162 @@
+{
+  "test_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "logreg": {
+    "n": 2660,
+    "log_loss": 0.9837,
+    "accuracy_pct": 53.16,
+    "brier": 0.5849,
+    "roi": {
+      "0.03": {
+        "bets": 2763,
+        "staked": 27630.0,
+        "returned": 25874.2,
+        "roi_pct": -6.35,
+        "hit_rate_pct": 28.6
+      },
+      "0.05": {
+        "bets": 2424,
+        "staked": 24240.0,
+        "returned": 22883.9,
+        "roi_pct": -5.59,
+        "hit_rate_pct": 28.1
+      },
+      "0.08": {
+        "bets": 2018,
+        "staked": 20180.0,
+        "returned": 18841.7,
+        "roi_pct": -6.63,
+        "hit_rate_pct": 26.7
+      },
+      "0.1": {
+        "bets": 1781,
+        "staked": 17810.0,
+        "returned": 16863.3,
+        "roi_pct": -5.32,
+        "hit_rate_pct": 26.4
+      }
+    },
+    "market_log_loss_same_rows": 0.9597,
+    "n_with_odds": 2280
+  },
+  "lgbm": {
+    "n": 2660,
+    "log_loss": 1.003,
+    "accuracy_pct": 52.07,
+    "brier": 0.5965,
+    "roi": {
+      "0.03": {
+        "bets": 2867,
+        "staked": 28670.0,
+        "returned": 25436.5,
+        "roi_pct": -11.28,
+        "hit_rate_pct": 31.4
+      },
+      "0.05": {
+        "bets": 2633,
+        "staked": 26330.0,
+        "returned": 23720.2,
+        "roi_pct": -9.91,
+        "hit_rate_pct": 31.2
+      },
+      "0.08": {
+        "bets": 2308,
+        "staked": 23080.0,
+        "returned": 20985.5,
+        "roi_pct": -9.07,
+        "hit_rate_pct": 30.2
+      },
+      "0.1": {
+        "bets": 2111,
+        "staked": 21110.0,
+        "returned": 19008.9,
+        "roi_pct": -9.95,
+        "hit_rate_pct": 29.1
+      }
+    },
+    "market_log_loss_same_rows": 0.9597,
+    "n_with_odds": 2280
+  },
+  "lgbm_market": {
+    "n": 2280,
+    "log_loss": 0.9768,
+    "accuracy_pct": 53.86,
+    "brier": 0.5781,
+    "roi": {
+      "0.03": {
+        "bets": 2741,
+        "staked": 27410.0,
+        "returned": 26373.3,
+        "roi_pct": -3.78,
+        "hit_rate_pct": 37.4
+      },
+      "0.05": {
+        "bets": 2491,
+        "staked": 24910.0,
+        "returned": 24068.4,
+        "roi_pct": -3.38,
+        "hit_rate_pct": 36.9
+      },
+      "0.08": {
+        "bets": 2113,
+        "staked": 21130.0,
+        "returned": 20444.3,
+        "roi_pct": -3.25,
+        "hit_rate_pct": 35.7
+      },
+      "0.1": {
+        "bets": 1854,
+        "staked": 18540.0,
+        "returned": 17860.9,
+        "roi_pct": -3.66,
+        "hit_rate_pct": 34.4
+      }
+    },
+    "market_log_loss_same_rows": 0.9597,
+    "n_with_odds": 2280
+  },
+  "lgbm_per_season": {
+    "2019-20": {
+      "n": 380,
+      "log_loss": 0.9989,
+      "accuracy_pct": 52.37
+    },
+    "2020-21": {
+      "n": 380,
+      "log_loss": 1.0387,
+      "accuracy_pct": 50.79
+    },
+    "2021-22": {
+      "n": 380,
+      "log_loss": 0.9787,
+      "accuracy_pct": 54.21
+    },
+    "2022-23": {
+      "n": 380,
+      "log_loss": 0.9983,
+      "accuracy_pct": 51.84
+    },
+    "2023-24": {
+      "n": 380,
+      "log_loss": 0.9344,
+      "accuracy_pct": 57.11
+    },
+    "2024-25": {
+      "n": 380,
+      "log_loss": 1.017,
+      "accuracy_pct": 50.26
+    },
+    "2025-26": {
+      "n": 380,
+      "log_loss": 1.0548,
+      "accuracy_pct": 47.89
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "season": "2026-27",
+  "gameweek": 1,
+  "odds_source": "BetUS opening lines + VegasOdds cross-check, retrieved 2026-08-20",
+  "fixtures": [
+    {
+      "date": "2026-08-21",
+      "home": "Arsenal",
+      "away": "Coventry",
+      "ml_home": -550,
+      "ml_draw": 650,
+      "ml_away": 1400
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Hull",
+      "away": "Man United",
+      "ml_home": 740,
+      "ml_draw": 395,
+      "ml_away": -260
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "ml_home": 120,
+      "ml_draw": 245,
+      "ml_away": 240
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Ipswich",
+      "away": "Sunderland",
+      "ml_home": 175,
+      "ml_draw": 230,
+      "ml_away": 165
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Nott'm Forest",
+      "away": "Leeds",
+      "ml_home": 135,
+      "ml_draw": 240,
+      "ml_away": 215
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Brentford",
+      "away": "Tottenham",
+      "ml_home": 145,
+      "ml_draw": 265,
+      "ml_away": 175
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Brighton",
+      "away": "Aston Villa",
+      "ml_home": 125,
+      "ml_draw": 270,
+      "ml_away": 200
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Man City",
+      "away": "Bournemouth",
+      "ml_home": -208,
+      "ml_draw": 350,
+      "ml_away": 525
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "ml_home": 269,
+      "ml_draw": 296,
+      "ml_away": -111
+    },
+    {
+      "date": "2026-08-24",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "ml_home": 279,
+      "ml_draw": 290,
+      "ml_away": -106
+    }
+  ],
+  "squad_values_eur_m": {
+    "Man City": 1174.9,
+    "Arsenal": 1056.7,
+    "Liverpool": 942.5,
+    "Chelsea": 919.6,
+    "Tottenham": 770.3,
+    "Man United": 674.2,
+    "Aston Villa": 653.0,
+    "Newcastle": 625.2,
+    "Brighton": 566.8,
+    "Crystal Palace": 441.6,
+    "Bournemouth": 440.0,
+    "Nott'm Forest": 435.5,
+    "Brentford": 396.1,
+    "West Ham": 391.3,
+    "Wolves": 386.5,
+    "Everton": 362.7,
+    "Fulham": 361.4,
+    "Leeds": 248.8,
+    "Sunderland": 223.0,
+    "Burnley": 200.9,
+    "Ipswich": 241.1,
+    "Coventry": 120.0,
+    "Hull": 95.0
+  },
+  "manual_adjustments": {
+    "_comment": "Optional per-team pre-match adjustment in Elo points. Use for key absences (e.g. -40 for a missing first-choice keeper or top scorer) or a new-manager bounce (+25). Leave empty for none.",
+    "_examples": {
+      "Team Name": -40
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pl-prediction-model"
+version = "1.1.0"
+description = "Premier League match outcome model validated against bookmaker odds"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Martin Mubangizi", email = "mubangizimartin1@gmail.com" }]
+keywords = ["machine-learning", "football-analytics", "forecasting", "sports-analytics"]
+classifiers = [
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+]
+dependencies = [
+  "pandas==3.0.2",
+  "numpy==2.4.4",
+  "scikit-learn==1.8.0",
+  "lightgbm==4.7.0",
+  "pyarrow==25.0.1",
+  "requests==2.33.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==9.1.1",
+  "pytest-cov==7.1.0",
+  "ruff==0.16.3",
+]
+
+[project.urls]
+Repository = "https://github.com/YOUR-USERNAME/premier-league-prediction-model"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "PTH", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B905"]
